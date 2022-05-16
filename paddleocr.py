@@ -26,7 +26,7 @@ import logging
 import numpy as np
 from pathlib import Path
 
-from tools.infer import predict_system
+from paddleocr.tools.infer import predict_system
 from ppocr.utils.logging import get_logger
 
 logger = get_logger()
